@@ -65,7 +65,7 @@ const AuthForm = <T extends FieldValues>({
     } else {
       toast(
         <>
-          <h2>{isSignIn ? "Signing in" : "Signing up"} error occured</h2>
+          <h2>{isSignIn ? "Signing in" : "Signing up"} error occurred</h2>
           <p>{result.error}</p>
         </>
       );
